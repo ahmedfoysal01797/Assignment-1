@@ -49,11 +49,11 @@ body{
 }
 
 .header-second img{
-    width: 95%;
+    width: 100%;
 }
 
 .top-banner{
-    background-image: url(images/header-bg.png);
+    background-image: url(images/header-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
