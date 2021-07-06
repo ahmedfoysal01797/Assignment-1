@@ -117,7 +117,7 @@ body{
 }
 
 .recipes-heading p{
-    margin: 0 600px;
+    margin: 0 500px;
 }
 
 .single-post{
@@ -152,24 +152,6 @@ body{
 
 /*social-details*/
 
-.social-details{
-    display: flex;
-    margin-top: 110px;
-    margin-bottom: 120px;
-}
-
-.social-details-box{
-    margin-left: 80px;
-    margin-right: 80px;
-    width: 33%;
-    padding: 40px 40px;
-    
-}
-
-.social-details-box h1{
-    font-size: 40px;
-}
-
 .social{
     box-shadow: 5px 5px 5px 5px skyblue;
     border-radius: 10px;
@@ -180,20 +162,47 @@ body{
     font-weight: 700;
 }
 
+.social-details{
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 120px;
+}
+
+.social-details-box{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+.social-details-box h1{
+    font-size: 40px;
+}
+
 /*footer area*/
 
 .footer-area{
     height: 300px;
     color: #fff;
-    margin-top: 80px;
     text-align: center;
     background-color: black;
     padding-top: 15px;
+    
+}
+
+.footer-box{
+    margin: auto;
+    width: 100%;
 }
 
 .footer-social{
     display: flex;
     list-style: none;
-    margin-left: 850px;
+}
+
+.footer-box ul{
+    justify-content: center;
 }
 
